@@ -1,0 +1,13 @@
+set path  = ( $path . /opt/local/bin /opt/local/ncbi/blast )
+alias python2 '/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7'
+alias python3 '/opt/local/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5'
+alias kirin   'ssh compbio@kirin.kit.jhu.edu'
+alias vmd     '/Applications/VMD\ 1.9.1.app/Contents/MacOS/startup.command.csh'
+alias rem     'set old=$cwd'
+alias ret     'cd old'  
+alias h       'history'
+alias ff      'find . -name \!* -print'
+alias grep    'egrep'
+alias up      'cd ..'
+alias ls      'ls -F -C'
+alias ll      'ls -lF' 
