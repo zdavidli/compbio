@@ -1,0 +1,37 @@
+David Li
+dli44@jhu.edu
+Lab 1b
+
+Q1: Can variable names start with numbers?
+No, doing so raises a syntax error.
+
+Q2: Can they have mathematical operators in the name (+, -, *, /, ?)?
+No, you will also get a syntax error.
+
+Q3: When we "add" two strings what is this operation usually called?
+The operation of "adding" two strings in Python is is called concatenation
+
+Q4: Do the trigonometric functions in python accept angles in radians or degrees?
+The trig functions expect an input in radians.
+
+Q5: What other accurate data value is included in the math module?
+The math module includes math.pi which we have seen, but also math.e for the
+constant e, math.tau for the constant tau = 2*pi, math.inf for a floating
+point infinity, and math.nan for a floating point "not-a-number"
+
+Q6: Is it possible to print more than one variable onto a line?
+You can print more than one variable on a line - for instance,
+print(bakedgood, pi) prints the values of the variables, separated by a space.
+
+Q7: How many list items are printed with the following command? print(list1[0:-2])
+
+Two elements are printed - the output is [1,2]
+
+Q8: What is this index? print(list1.index(3))
+The result from print(list1.index(3)) is 2, the index of the element 3.
+
+Q9: What is accomplished by the conditional lines before the continue and break commands? In other words, what do "#" and nothing mean as you scan through the lines of a file?
+
+If we reach a '#' character, we continue the loop -- in particular this means we stop processing this iteration of the lop and continue to the next iteration.
+If the line is empty, we break out of the loop, and this terminates reading the file. In other words, if we reach the end of the file then we can stop.
+

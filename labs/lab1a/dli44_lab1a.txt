@@ -1,0 +1,17 @@
+David Li
+dli44@jhu.edu
+Lab 1A Answers
+
+Q1: The default shell is bash, and some other shells include ksh, csh, zsh.
+
+Q2: If you want to find your current working directory, you use the
+command pwd. For instance,
+
+    $ lab1a : pwd
+    /Users/dli44/Documents/compbio/labs/lab1a
+
+Q3: You can view test.dat by many commands - you can use less to look at the whole file, you can use head to look at the beginning of the file, tail to look at the end of the file, or even use vim/emacs/nano/pico to open and edit the file
+
+Q4: Not sure what exactly you're looking for.. but it portrays computer users as only men, which is definitely not the case.
+
+
