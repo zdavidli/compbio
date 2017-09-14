@@ -1,0 +1,68 @@
+David Li
+dli44@jhu.edu
+Lab 1c
+
+Q1:
+This makes sense because the trans, gauche, and eclipsed conformations of
+butane all have varying potential energies due to torsion. Particularly, the
+eclipsed conformations have higher energy because the high torsional strain
+caused by the close proximity of methyl groups. When the methyl groups are
+far away from each other as in the trans conformation, the potential energy
+from torsional strain is minimized.
+
+Q2:
+The activation barriers to rotation are the potential energy wells, as shown in
+the graph. The wells at theta = 60 and theta = 300 are the gauche conformation,
+and in order to further rotate it must go toward an eclipsed conformation,
+which have higher energy. The activation energies for rotation toward the
+trans conformation are E-epsilon.
+
+
+Q3:
+The torsion angle around theta = 180 (trans conformation) has lower
+potential energy than the rest because the methyl groups are furthest from each
+other at that point, and thus has the least torsional strain and therefore less
+potential energy.
+
+Q4:
+The deltaE energy difference determines dynamic and static flexibility.
+
+Q5:
+
+The epsilon energy difference determines the equilibrium proportions of the
+three most favorable conformations.
+
+Q6:
+The histogram doesn't indicate randomness - we would expect the histogram
+to be closer to equal height for all buckets. However, since the deviation
+from flat is fairly small, it's likely that it's truly random.
+
+Q7:
+If we wanted to increase our confidence that the data is random,
+we could increase the number of samples or trials, for instance to 1000000 data
+points. Doing so would eliminate more of the randomness associated with
+sampling.
+
+
+Q8:
+
+The histogram roughly looks like a gaussian distribution, but there are some
+buckets/bins that have higher frequency due to random sampling.
+
+Q9:
+
+After applying the curve onto the histogram, the general shape of a gaussian
+distribution exists within the shape of the histogram, but there are variations
+- the fit is not perfect.
+
+Q10:
+
+We could try bucketing into fewer bins - this would reduce the variance of
+numbers going in particular bins.
+
+Doing so helps somewhat, but you still see inevitable variation in the size of
+buckets - this is expected when you have fewer samples from a distribution.
+
+You could also try using more samples of data - if we increased the data from
+1000 samples to say 1000000 samples, we see much better fit to the Gaussian
+distribution.
