@@ -44,7 +44,7 @@ def LJ():
           attractive = factor*(-1*(sigma/rij)**6)
           repulsive = factor*((sigma/rij)**12)
           tot_LJ = attractive + repulsive
-#         tot_LJ = 100.0 * tot_LJ
+          tot_LJ = 100.0 * tot_LJ
 
           # Cut off output values at a maximum of 10 for
           # plotting purposes
