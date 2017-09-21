@@ -1,5 +1,3 @@
-def gaussian(count):
-
 =======
 """
 David Li
