@@ -31,4 +31,3 @@ greatertwo = sum(twosigma)
 #Print percentage greater than mu+sigma and mu+2sigma with formatting
 print("{:06.2f}% of the generated numbers are greater than mu+sigma".format(greaterone/count))
 print("{:06.2f}% of the generated numbers are greater than mu+2*sigma".format(greatertwo/count))
->>>>>>> hw2
