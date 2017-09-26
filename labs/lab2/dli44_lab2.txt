@@ -1,0 +1,68 @@
+David Li
+dli44@jhu.edu
+Lab 2 writeup
+
+Q1.
+The isolated plus signs are waters.
+
+Q2. Is there electron density information for all residues of the protein model?
+
+There is electron density information for many but not all residues.
+For instance, the residue (94) does not have complete electron density information.
+
+Q3. Now is there electron density information for all atoms of all the residues
+of the protein model?
+
+There are a lot more of the residues with electron density information,
+but it's still not complete.
+
+Q4. What are defining characteristics of the residues that do not have electron
+density?
+
+The parts that don't have electron density information are glutamate,
+which are highly polar and thus are very mobile. This means the electron density
+map is highly smeared and can't be determined well.
+
+Q5. How were the conformations of these sidechains obtained if there is no
+density to indicate its conformation?
+
+A side chain conformation is chosen by crystallographers arbitrarily.
+
+Q6. Stop the movie, query the identity of two hydrogen bonded atoms and enter
+the Info) records as the answer to this question.
+
+Info) molecule id: 0
+Info) trajectory frame: 228
+Info) name: O
+Info) type: O
+Info) index: 515
+Info) residue: 31
+Info) resname: THR
+Info) resid: 32
+Info) chain: P
+Info) segname: PROT
+Info) x: 2.642324
+Info) y: -6.528315
+Info) z: -6.952116
+Info) picked atom:
+Info) ------------
+Info) molecule id: 0
+Info) trajectory frame: 228
+Info) name: HE2
+Info) type: HP
+Info) index: 368
+Info) residue: 21
+Info) resname: PHE
+Info) resid: 22
+Info) chain: P
+Info) segname: PROT
+Info) x: 4.011071
+Info) y: -4.595154
+Info) z: -5.823361
+
+Q7. In general, do the individual water-protein hydrogens bonds persist
+for a longer or shorter time than the protein-protein hydrogen bonds?
+
+They persist for a shoter time - in the movie the water molecules drift away
+quite quickly and persist for shorter periods than the hydrogen bonds within
+the protein.
