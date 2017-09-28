@@ -1,0 +1,94 @@
+David Li
+dli44@jhu.edu
+
+Lab 3a: Monte Carlo Simulations
+
+Q1. How do you find out more about the tar command?
+
+You can use man tar to see its man page. You can also use tar -help
+to see command-line options.
+
+Q2. Why don't we set the algorithm to give us a larger percentage acceptance
+(i.e. use smaller displacement)?
+
+It is a result of the Metropolis criterion - if our displacement is too small
+then we don't see significant changes in the system but if the displacement is
+too large then we may have issues with atoms occupying the same position. According
+to Dr Fleming, it was calculated mathematically that the optimal acceptance
+rate for Monte Carlo simulations is around 50%, so that explains why the percentage
+tends toward 50% in our simulation.
+
+Q3. What is the average inter-atomic distance?
+
+Average distance is 3.2 Angstrom
+
+Q4. What do you expect to happen to this lattice during your simulation?
+
+I expect the inter-atomic distance to increase.
+
+Q5. Why do many blue spheres suddenly appear on the other side of the system?
+
+It's a residue of our viewing frame -- the blue spheres starting on the left
+move out of the frame but we have other spheres entering the frame of the system
+due to periodic boundary conditions. In other words, we no longer track the
+original blue spheres since they move away but we track new ones since they move
+into the picture.
+
+Q6. Are the colors well mixed (an indication of equilibrium)?
+
+The colors are quite well mixed.
+
+Q7. What are some inter-atomic distances?
+
+In a sample of 10 inter-atomic distances, distances are
+3.6, 4.2, 5.7, 4.1, 3.7, 3.3, 3.9, 6.4, 3.8, 4.8 angstroms,
+all of which are larger than the original starting distances of 3.2 angstrom
+
+Q8. What is the ideal atomic distance for this system?
+
+We can calculate the ideal (minimum energy distance) for the system
+by using the Lennard-Jones equation.
+
+Rmin = 1.12 * r_0 = 1.12 * 3.4 = 3.808
+
+So the ideal distance is about 3.808 Angstrom
+
+Q9. Why aren't all atomic distances at the minimum energy distance?
+
+Not all distances are at the ideal distance because of randomness in the
+simulation and because the energy of the state follows a probability
+distribution, so the state energy is not exactly at the ideal minimum energy.
+
+Q10. Does the system appear to have reached equilibrium?
+
+Yes, the energy level seems to have plateaued with small fluctuations,
+so it has likely reached its equilibrium state, even though the
+energy level is not exactly constant.
+
+Q11. What should the plot look like at equilibrium?
+
+At equilibrium we might expect the plot to be a flat line (i.e. constant
+energy).
+
+Q12. What does each command and argument in a line below do?
+
+I will explain the following command, the other three are similar.
+$sed -n '1,200p' energy.dat | awk '{print $2}' > 1.dat
+
+
+Q13. Does the system appear to have reached equilibrium?
+
+There are small variations in the mean and standard deviation, but the means
+and standard deviations of the second through fourth data files are very
+close to each other - the system appears to have reached equilibrium.
+
+
+Q14. Does the system appear to have maintained a stable energy value with small
+fluctuations?
+
+
+Q15. What would be the slope of the fitted line at equilibrium and how does
+your calculated slope compare?
+
+At equilibrium we expect the slope of the fitted line to be 0 -- a flat line.
+

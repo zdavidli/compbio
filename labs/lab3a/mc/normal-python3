@@ -1,0 +1,51 @@
+#!/bin/bash
+# This script runs python3.2 using the SGE queue submission engine.
+
+CPUS=1
+QUEUE="normal"
+
+# Set the parallel environemnt.
+PE=kirin-pe
+
+# Figure out which executable to run.
+BINDIR=/home/apps/bin
+PYTHONBIN=$BINDIR/python3.2
+
+# Create the job file.
+JOBFILE=`mktemp /tmp/namd.XXXXXXXXXXXX`
+cat >$JOBFILE <<EOF
+#$ -S /bin/bash
+#$ -N dli44 
+#$ -j y
+#$ -m n
+#$ -pe $PE $CPUS
+#$ -q $QUEUE
+#$ -cwd
+
+# Print out the machines allocated to the job.
+echo "Running in \$SGE_O_WORKDIR"
+echo "Job: \$JOB_ID"
+echo "Host: \$HOSTNAME"
+echo "Num Hosts: \$NHOSTS"
+echo "Num Slots: \$NSLOTS"
+echo "Nodes:"
+cat \$TMPDIR/machines
+
+# Build the nodelist file for the machine list file.
+NODELIST=\$TMPDIR/namd2.nodelist
+echo group main > \$NODELIST
+for NODE in \`cat \$TMPDIR/machines\`; do
+    echo host \$NODE >> \$NODELIST
+done
+echo "Node List:"
+cat \$NODELIST
+
+
+# Run the job.
+$PYTHONBIN mc_nvt.py mc_params init.pdb 
+
+EOF
+
+echo "Submitting job to $QUEUE (cpus=$CPUS)"
+qsub $JOBFILE && rm -f $JOBFILE
+

@@ -1,0 +1,25 @@
+# Parameter file for Lennard-Jones particle Monte Carlo NVT simulation
+# Read by mc_nvt.py 
+
+#    cycles     : number of Monte Carlo cycles during equilibration
+#    Nsamp      : number of Monte Carlo cycles between sampling statistics
+#    Nstruc     : number of Monte Carlo cycles between sampling structures
+#    Dr         : maximum displacement (actual will be random(0,1)*Dr)
+#    Ndispl     : number of attempts to displace a particle per MC cycle
+#    Npart      : total number of particles
+#    Temp       : temperature 
+#    Rho        : volume density 
+#    Eps        : epsilon, max energy of particle attraction
+#    Sig        : distance between particles at zero attraction 
+
+cycles 4000
+nsamp 5
+nstruc 20
+dr  0.1
+ndispl 100
+npart  144
+temp 298
+rho  0.6
+eps 0.238
+sig 3.4
+
