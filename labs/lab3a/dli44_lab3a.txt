@@ -24,7 +24,7 @@ Average distance is 3.2 Angstrom
 
 Q4. What do you expect to happen to this lattice during your simulation?
 
-I expect the inter-atomic distance to increase.
+I expect the inter-atomic distance to increase and that the lattice will break.
 
 Q5. Why do many blue spheres suddenly appear on the other side of the system?
 
@@ -36,7 +36,8 @@ into the picture.
 
 Q6. Are the colors well mixed (an indication of equilibrium)?
 
-The colors are quite well mixed.
+The colors are quite well mixed but there are certain concentrations of colors, so I don't think
+they're well mixed enough to indicate equilibrium.
 
 Q7. What are some inter-atomic distances?
 
@@ -67,14 +68,33 @@ energy level is not exactly constant.
 
 Q11. What should the plot look like at equilibrium?
 
-At equilibrium we might expect the plot to be a flat line (i.e. constant
+At equilibrium we might expect the slope to be 0 (i.e. the plot is a flat line or constant
 energy).
 
 Q12. What does each command and argument in a line below do?
 
 I will explain the following command, the other three are similar.
-$sed -n '1,200p' energy.dat | awk '{print $2}' > 1.dat
+$ sed -n '1,200p' energy.dat | awk '{print $2}' > 1.dat
 
+sed -n '1,200p' energy.dat
+	the flag -n suppresses sed output.
+	the '1,200' part of the argument specifies first 200 lines
+	the p indicates to print the selection
+	energy.dat indicates we want to apply this function on energy.dat
+	
+	So the result is that we print the first 200 lines of energy.dat
+	
+| awk '{print $2}'
+	The pipe operator takes the stdout output of the first command and directs
+		it as input to the second command.
+
+	So the command awk '{print $2}' prints the 2nd item of the input - 
+		i.e. the second column of the output from the sed command
+
+> 1.dat
+	This pipes the output into a file '1.dat'
+	
+The other commands do the same but for different ranges of line numbers and to different files.
 
 Q13. Does the system appear to have reached equilibrium?
 
@@ -86,9 +106,10 @@ close to each other - the system appears to have reached equilibrium.
 Q14. Does the system appear to have maintained a stable energy value with small
 fluctuations?
 
+Yes.
 
 Q15. What would be the slope of the fitted line at equilibrium and how does
 your calculated slope compare?
 
 At equilibrium we expect the slope of the fitted line to be 0 -- a flat line.
-
+My calculated slope is -9*10^-5, which is very close to 0, as we expected.
