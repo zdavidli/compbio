@@ -1,0 +1,24 @@
+Q1. What are the labels for the six columns starting with row 5?
+
+The rows contain position information (X,Y,Z coordinates), and
+X,Y,Z components of velocity.
+
+Q2. What is the difference between the two energies given?
+
+The difference between total energy and potential energy is the kinetic
+energy.
+
+Q3. What are the keywords at the beginning and end of each configuration?
+
+Models have the line "MODEL" at the beginning and a line "ENDMDL" at the end.
+
+Q4. How many configurations are in the trajectory?
+
+There are 209 configurations.
+
+Q5.
+
+Q6.
+
+Q7.
+
