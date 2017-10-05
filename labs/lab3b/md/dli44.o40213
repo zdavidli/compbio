@@ -1,0 +1,66 @@
+Running in /home/compbio2/dli44/md
+Job: 40213
+Host: node-3.internal.kirin
+Num Hosts: 1
+Num Slots: 1
+Nodes:
+node-3
+Node List:
+group main
+host node-3
+ Reading MD positions and velocities from file restart.cv
+ Time Step                                  :      0.001
+ Total Simulation Time (ps)                 :      15.00
+ Starting with   225.00 (ps) accumulated simulation time
+ Statistical Sample Every                             10 Steps
+ Trajectory Output Every                              50 Steps
+ Number of particles                        :        144
+ Requested Temperature                      :     298.00
+ Density                                    :      0.600
+ 
+ Total energy initial configuration:       10.339 
+ Potential energy initial configuration:     -116.814 
+ Initial Temperature =   298.00
+
+ Total energy at time     226.50:        9.395 kcal/mol
+ Potential energy:     -113.993 kcal/mol
+ Temperature:      287.459 K
+
+ Total energy at time     228.00:        9.608 kcal/mol
+ Potential energy:     -105.077 kcal/mol
+ Temperature:      267.185 K
+
+ Total energy at time     229.50:        9.409 kcal/mol
+ Potential energy:     -113.884 kcal/mol
+ Temperature:      287.238 K
+
+ Total energy at time     231.00:       10.847 kcal/mol
+ Potential energy:     -116.754 kcal/mol
+ Temperature:      297.274 K
+
+ Total energy at time     232.50:        8.945 kcal/mol
+ Potential energy:     -122.624 kcal/mol
+ Temperature:      306.520 K
+
+ Total energy at time     234.00:        9.604 kcal/mol
+ Potential energy:     -112.120 kcal/mol
+ Temperature:      283.583 K
+
+ Total energy at time     235.50:       10.033 kcal/mol
+ Potential energy:     -113.349 kcal/mol
+ Temperature:      287.447 K
+
+ Total energy at time     237.00:       10.500 kcal/mol
+ Potential energy:     -108.838 kcal/mol
+ Temperature:      278.025 K
+
+ Total energy at time     238.50:       10.241 kcal/mol
+ Potential energy:     -116.877 kcal/mol
+ Temperature:      296.150 K
+
+ Total energy at time     240.00:        9.353 kcal/mol
+ Potential energy:     -117.538 kcal/mol
+ Temperature:      295.621 K
+
+ Total energy final configuration:        9.377 kcal/mol
+ Potential energy final configuration:     -117.982 

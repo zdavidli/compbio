@@ -1,0 +1,26 @@
+# Parameter file for Lennard-Jones particle Molecular Dynamics simulation
+# Read by md_equi.py or md_prod.py
+
+#    Delt       : time step MD simulation (in units of ~ps)
+#    Tmax       : total simulation time (in units of ~ps)
+#    Nsamp      : number of steps between two sampling periods
+#    Nstruc     : number of steps between ensemble structures
+#    Npart      : total number of particles
+#    Temp       : temperature (K)
+#    Rho        : density (volume density)
+#    Eps        : epsilon, max energy of particle attraction (kcal/mol)
+#    Sig        : distance between particles at maximum attraction (Angstrom)
+#    Mass       : mass of atom (kg/mol)
+#    Equil      : equilibration (1) or production (0)
+
+delt 0.001
+tmax  5.0
+nsamp 10
+nstruc 500
+npart  144
+temp 298
+rho  0.6
+sig 3.4
+eps 0.238
+mass 0.03994
+equil 1
