@@ -14,11 +14,28 @@ Models have the line "MODEL" at the beginning and a line "ENDMDL" at the end.
 
 Q4. How many configurations are in the trajectory?
 
-There are 209 configurations.
+There are 300 configurations.
 
-Q5.
+Q5. The number of steps is tmax/delt = 15/0.001 = 15000, and we print out a configuration every nstruc = 50 steps.
 
-Q6.
+This means we should see a total of 300 configurations.
 
-Q7.
+Q6. Did you get the right number of configurations?
 
+We got 300 configurations in our simulation, so this is right.
+
+Q7. What is the average distance between an atom and other atoms in its first neighbor shell?
+
+The average distance in the first shell (the first peak in the plot) is around 3.7-3.8.
+
+Q8. Is this distance the same as the van der Waals distance?
+
+Yes, it looks approximately the same as the van der Waals distance, since 1.12 * sigma = 1.12 * 3.4 = 3.80.
+
+Q9. Do MC and MD give the same distribution of pairwise distances? IN other words, do both algorithms give the same average structure for the system?
+
+Yes, the two algorithms return the same average structure.
+
+Q10. Do both distributions of energies have the same Gaussian fit values?
+
+They have very similar Gaussian fit values, but they are not identical.
