@@ -1,0 +1,10 @@
+1. Extrapolation to 0M denaturant:  
+For residue A, I estimate (by visual approximation) that the free energy of unfolding will be +7.5 kcal/mol since it appears nonlinear.
+For residue B, I estimate that the free energy of unfolding will be +12 kcal/mol since it appears linear. 
+
+2. Which residue is most likely to be in an unfolded region of the protein at zero concentration GdmCl?
+Residue A is more likely to be in an unfolded region because the free energy of unfolding 
+for the region containing residue A is lower than the free energy of unfolding for the region 
+containing residue B, so a greater proportion of the proteins in the ensemble will meet the energy threshold 
+required for A to be in a denatured/unfolded state. Hence residue A is more likely to be in an unfolded region 
+when looking at an ensemble of the proteins.
