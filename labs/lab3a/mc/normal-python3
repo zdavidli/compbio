@@ -15,7 +15,7 @@ PYTHONBIN=$BINDIR/python3.2
 JOBFILE=`mktemp /tmp/namd.XXXXXXXXXXXX`
 cat >$JOBFILE <<EOF
 #$ -S /bin/bash
-#$ -N dli44 
+#$ -N dli44
 #$ -j y
 #$ -m n
 #$ -pe $PE $CPUS
@@ -42,7 +42,7 @@ cat \$NODELIST
 
 
 # Run the job.
-$PYTHONBIN mc_nvt.py mc_params init.pdb 
+$PYTHONBIN md.py md_params_prod restart.cv
 
 EOF
 

@@ -1,0 +1,68 @@
+1. What is the meaning of the redirect symbols < and >?
+
+The redirect symbols are used for treating file data as standard input
+and standard output. Specifically < reads a file into standard input
+and > reads standard output into a file.
+
+2. What are the coordinates of the first atom (GLY, N)?
+
+The coordinates are (0.0, 0.0, 0.0).
+
+3. What are the coordinates of the second atom (GLY, CA)?
+
+The coordinates are (1.451, 0.0, 0.0).
+
+4. Do the coordinates agree with the Z-matrix?
+
+Yes, the coordinates agree with the Z-matrix.
+
+5. What is the torsion angle value and does it agree with the Z-matrix above?
+
+The given torsion angle is -64, and the PyMOL calculated angle is -64.006.
+It agrees with the Z-matrix.
+
+6. Are these two atoms in van der Waals overlap?
+
+The distance between the atoms is 2.5 A, which is less than 1.35 + 1.65 A
+so they are in vdW overlap.
+
+7. Would this conformation of the peptide be the lowest energy conformation
+given the Lennard-Jones description of atomic interaction energies?
+
+This conformation wouldn't be the lowest energy conformation because
+the lowest energy conformation is when the distance is equal to the vdW distance.
+
+8. Do the vdW surfaces of the above carbonyl oxygen and Cb carbon atoms overlap?
+
+Yes, they overlap.
+
+9. Do any other non-bonded atoms overlap?
+
+There appears to be some overlap between Nitrogens and the carbonyl
+carbons as well as the carbonyl carbons with Cb.
+
+10. What are the phi, psi values for the helix structure?
+
+The values are phi=-60, psi = -40.
+
+11. Does the helix structure have hydrogen bonds between the O(i) and N(i+4)?
+
+Yes.
+
+12. What are the phi, psi values for the strand structure?
+
+The phi, psi values are -120, 130.
+
+13. Are all rotamers equally sterically probable in both helix and strand conformations?
+
+In strand, all are probable, but in helix, two of the conformations have high vdW overlap with nitrogen, so those are less probable.
+
+14. Which backbone conformation, helix or strand, is preferred for valine?
+
+Strand is more preferred for valine.
+
+15. Explain your last answer in terms of Boltzmann statistics.
+
+In strand conformation, the valine rotamers exist at lower energy states
+compared to that of helix. So, the strand conformation is preferred for valine.
+

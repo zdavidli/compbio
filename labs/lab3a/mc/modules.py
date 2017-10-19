@@ -46,6 +46,9 @@ def readparam(file):
 def pdbout(file,X,Y,Z,Data):
     # write coordinates of single configuration in PDB format 
     # call all atoms oxygen with unknown residue name
+    title1 = 'REMARK PDB File'
+    file.write(title1)
+
     sigma = float(Data['SIG'])
     record = 'ATOM  '
     atmnam = 'O'
@@ -572,9 +575,6 @@ def velocs(Data,VX,VY,VZ):
     Temp = SI_temp/(eps/kb)
     v2 = 0.0
     for i in range(0,Npart):
-        vx10 = 10.0 * VX[i]
-        vy10 = 10.0 * VY[i]
-        vz10 = 10.0 * VZ[i]
         v2 = v2 + (VX[i]**2 + VY[i]**2 + VZ[i]**2)
     Tempact = v2/(3.0*Npart)
     fac = sqrt(Temp/Tempact)
