@@ -1,0 +1,101 @@
+============================================================
+LINUS version 0.1
+============================================================
+
+Simulation starting time: Tue Oct 24 10:52:00 2017
+
+Input PDB Filename: ala_strand.pdb
+Molecule TITLE      ALA
+	Number of Residues: 13
+	Number of Atoms   : 65
+
+----- Simulation Parameters -----
+	Number of Cycles:        50000
+	Structure Save Frequency:        50000
+	Random Generator Seeds at Start: (1771864858L, 1088725166L, 808635764L, 971616463L, 1609065348L, 1208036433L)
+	Beta for run: 2
+	Number of trials: 1
+
+----- Bump Check Information -----
+
+ Total Number of Bumps = 0
+
+----- Hydrogen Bond Score Information -----
+Hydrogen Bond Distance:   3.5
+Hydrogen Bond Torsion:    140
+Hydrogen Bond Probe Size: 1.5
+Hydrogen Bond Score:
+	Short: 0.35
+	 Long: 1
+
+------ Hydrogen Bond Score Listing -----
+
+Total Hydrogen Bond Score = -0.000
+
+Total Energy of Initial Structure = 0
+	HBond Minimum Window Size: 2
+	HBond Maximum Window Size: 13
+	Contact Minimum Window Size: 2
+	Contact Maximum Window Size: 6
+
+----- Sampling Weights at Start of Run -----
+RESIDUE    HELIX   SHEET   TURN1   TURN2    COIL    PII
+   1 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   2 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   3 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   4 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   5 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   6 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   7 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   8 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   9 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+  10 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+  11 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+  12 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+  13 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+Simulation Finished at: Tue Oct 24 11:01:19 2017
+Number of Structures Accepted: 201438
+Number of Structures Rejected by Sterics: 250531
+Number of Structures Rejected by Hbond Satisfaction: 0
+Total Number of Structures Rejected: 348562
+Best Score: -4.14098
+Final Score: -0.348596
+Random Generator Seeds at End: (4172061796.0, 3679028030.0, 3741893019.0, 1660468273.0, 4288640237.0, 1225416564.0)
+
+----- Bump Check Information -----
+
+ Total Number of Bumps = 0
+
+----- Hydrogen Bond Score Information -----
+Hydrogen Bond Distance:   3.5
+Hydrogen Bond Torsion:    140
+Hydrogen Bond Probe Size: 1.5
+Hydrogen Bond Score:
+	Short: 0.35
+	 Long: 1
+
+------ Hydrogen Bond Score Listing -----
+   4 ALA  N      1 ALA  O   Distance = 3.506 Score = 0.349
+
+Total Hydrogen Bond Score = -0.349
+
+Total Energy of Initial Structure = -0.348596
+
+----- Sampling Weights at Start of Run -----
+
+----- Move Type Details ----
+  Residue        Helix               Sheet              Turn1              Turn2               Coil                PII
+           Accepted Rejected   Accepted Rejected  Accepted Rejected  Accepted Rejected  Accepted Rejected  Accepted Rejected
+    1 ALA         0        0         0        0         0        0         0        0         0        0         0        0
+    2 ALA      6173     6399      8147     4260      3605     2576      3372     2931      3518     2711      4052     2231
+    3 ALA      5074     7444      6980     5342      2224     4032      2187     3923      2538     3828      2502     3780
+    4 ALA      4610     7908      5862     6589      1771     4421      1573     4718      2028     4236      2105     4246
+    5 ALA      4400     8266      4737     7863      1475     4883      1371     4829      1683     4594      1905     4374
+    6 ALA      4444     8280      4556     7938      1377     4968      1273     4883      1608     4584      1819     4574
+    7 ALA      4245     8347      4309     8304      1334     4869      1295     4897      1549     4657      1685     4571
+    8 ALA      4166     8203      4120     8452      1231     4951      1296     5042      1517     4593      1622     4495
+    9 ALA      4192     8128      4085     8532      1417     4793      1330     4812      1519     4819      1673     4720
+   10 ALA      4588     7957      4355     7975      1468     4806      1647     4607      1738     4492      1916     4274
+   11 ALA      5503     7250      4884     7445      1772     4562      2091     4082      2055     4080      2259     4158
+   12 ALA      8259     3999      5936     6712      2680     3416      3352     2982      2760     3370      2621     3599
+   13 ALA         0        0         0        0         0        0         0        0         0        0         0        0

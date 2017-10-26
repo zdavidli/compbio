@@ -1,0 +1,10 @@
+Running in /home/compbio2/dli44/lab4b/linus_mc
+Job: 40516
+Host: node-11.internal.kirin
+Num Hosts: 1
+Num Slots: 1
+Nodes:
+node-11
+Node List:
+group main
+host node-11

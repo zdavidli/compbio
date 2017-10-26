@@ -1,0 +1,3 @@
+/var/spool/gridengine/execd/node-13/active_jobs/40539.1/pe_hostfile
+node-13
+rm: cannot remove `/tmp/40539.1.normal/rsh': No such file or directory

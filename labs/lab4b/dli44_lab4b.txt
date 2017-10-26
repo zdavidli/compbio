@@ -1,0 +1,58 @@
+David Li
+Lab 4b
+dli44@jhu.edu
+
+Q1. What conformation is defined by the default phi, psi values, helix or strand?
+
+The default values are phi = -120 and psi = 120. This defines strand coformation.
+
+Q2. Is the minimum energy structure mostly a strand or a helix?
+
+The minimum energy structure is mostly a helix.
+
+Q3. How does this compare with the starting structure?
+
+This is different from the starting structure since the original structure is a strand.  
+
+Q4. Why would the structure seen in ala_strand.min have a favorable energy minimum?
+
+This structure would have a favorable energy minimum since it is at a higher entropy 
+and is thus more stable so this conformation has more ways to be achieved.
+
+Q5. What conformation is the new low energy structure ala_helix_min.pdb? 
+
+It's mostly helix.
+
+Q6. Is it similar to the previous low-energy structure from the strand starting 
+conformation in terms of helix content? Should it be different?
+
+It's similar, and we'd expect the low-energy structures to go toward a helix in 
+both cases if the low-energy structure is a helix-like structure.
+
+Q7. Does the starting structure have an effect on the equilibrated minimum energy 
+structure in terms of whether you end up with helix or strand?
+
+No, if we are using a Monte Carlo method then the starting structure should not 
+affect what the equilibrium structure is because we assume we are following a Markov process.
+
+Q8. Do you think the simulation followed a Markov process?
+
+Yes, since we arrived at similar equilibrium conformations independent of the 
+starting structure of the protein.
+
+Q9. How many conformations should be in this file?
+
+There should be 10000 conformations (since 50000/5 = 10000). The command resulted in 10000 models.
+
+Q10. If you don't remember what the commands grep and wc mean how do you find out?
+
+You can use --help flags or check the man pages for the commands.
+
+Q11. How is this escape from the downhill energy tendency achieved in your simulation?
+
+We escape from the downhill energy tendency because of the random moves to higher-energy states in 
+our MC simulation. This allows us to sample conformations through randomness.
+
+Q12. Would you say many different conformations were sampled or not?
+
+Yes, many different conformations were sampled.
