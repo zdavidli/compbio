@@ -1,0 +1,50 @@
+David Li
+dzli@jhu.edu
+Lab 4c
+
+Q1. How many conformations will this produce?
+
+If we run the program for 25000 cycles and save a conformation
+every 50th cycle, we will have 25000/50 = 500 conformations
+
+Q2. Is a helical conformation sampled?
+
+Yes, a helical conformation is sampled.
+
+Q3. Which move type is accepted more often, Helix or Strand(Sheet)?
+
+Helix move types are accepted more often, with no residue dipping below
+2000 acceptances, but sheet moves mostly have fewer than 2000 acceptances.
+
+Q4. How are the two simulations different? Why?
+
+The simulations were very different since the polyvaline stayed in a
+strand conformation basically the whole time.
+
+They would be different because polyvaline has more conformational freedom
+in the side chains so polyvaline biases more toward strand conformation,
+whereas the polyalanine biases more toward helix conformation.
+Looking in the log file, I noticed that very few helix moves were accepted
+and many strand moves were accepted.
+
+Q5. Was the above hypothesis correct?
+
+Our hypothesis was that polyvaline biases the conformational distribution
+away from helix compared to polyalanine. Because polyvaline had fewer
+helix acceptances and more strand/sheet acceptances, it seems that
+the conformations are biased more toward strand and away from helix.
+
+Q6. Which force field potential, if any, generated more compact structures on
+average? Give the average Rg for each FF in your answer.
+
+Q7. Which force field potential, if any, generated the most compact minimal energy
+structure? Give the Rg for the minimal energy structure for each FF potential.
+
+Q8. How are these two structures different with respect to the number of H-bonds
+and positions of leucine side chains?
+
+Q9. How, then, does one bias hydrophobic side chains away from the protein
+surface toward the interior in "state of the art" protein simulations?
+
+Q10. Based on your results, which type of interaction, hydrogen bonding or
+hydrophobic effects, is more important for the initial folding of proteins?
