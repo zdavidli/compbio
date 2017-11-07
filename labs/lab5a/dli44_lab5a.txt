@@ -1,0 +1,22 @@
+David Li
+dli44@jhu.edu
+
+Q1. What is a name for the block of lines that start with "IC"?
+
+
+
+Q2. What are the epsilon and VdW radius of the first type of carbon, 'C', in the list?
+
+epsilon is -0.11 and the VdW radius Rmin is 2*2.00 = 4.00.
+
+Q3. Which one (color) do you think is the inhibitor?
+
+
+
+Q4.
+
+Q5.
+
+Q6.
+
+

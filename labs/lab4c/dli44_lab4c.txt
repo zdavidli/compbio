@@ -37,14 +37,32 @@ the conformations are biased more toward strand and away from helix.
 Q6. Which force field potential, if any, generated more compact structures on
 average? Give the average Rg for each FF in your answer.
 
+The average Rg for hydrogen bonding is 11.5 A and the average Rg for hydrophobic effects
+is 11.19. Thus hydrophobic effects generates more compact structures on average.
+
 Q7. Which force field potential, if any, generated the most compact minimal energy
 structure? Give the Rg for the minimal energy structure for each FF potential.
+
+The most compact minimal energy structure was attained with the hydrophobic effects.
+The minimum achieved by hydrogen bonding was 7.205 A and the minimum for 
+hydrophobic effects was 6.863 A.
 
 Q8. How are these two structures different with respect to the number of H-bonds
 and positions of leucine side chains?
 
+The hydrophobic effect structure has more hydrogen bonding and the leucine side chains
+are in close proximity to each other. On the other hand, in the hydrogen bond effect
+structure, the leucines are all separated away from each other and there are no visible
+hydrogen bonds -- the structure is a lot more linear.
+
 Q9. How, then, does one bias hydrophobic side chains away from the protein
 surface toward the interior in "state of the art" protein simulations?
 
+The hydrophobic force field is primarly on the inner surface of proteins. In a simulation
+we would use some polar solvent which allows hydrogen bonds to be created. These bias
+the hydrophobic side chains toward the interior. 
+
 Q10. Based on your results, which type of interaction, hydrogen bonding or
 hydrophobic effects, is more important for the initial folding of proteins?
+
+Hydrogen bonding is more important for the initial folding of proteins.
