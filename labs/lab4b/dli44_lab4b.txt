@@ -12,32 +12,32 @@ The minimum energy structure is mostly a helix.
 
 Q3. How does this compare with the starting structure?
 
-This is different from the starting structure since the original structure is a strand.  
+This is different from the starting structure since the original structure is a strand.
 
 Q4. Why would the structure seen in ala_strand.min have a favorable energy minimum?
 
-This structure would have a favorable energy minimum since it is at a higher entropy 
+This structure would have a favorable energy minimum since it is at a higher entropy
 and is thus more stable so this conformation has more ways to be achieved.
 
-Q5. What conformation is the new low energy structure ala_helix_min.pdb? 
+Q5. What conformation is the new low energy structure ala_helix_min.pdb?
 
 It's mostly helix.
 
-Q6. Is it similar to the previous low-energy structure from the strand starting 
+Q6. Is it similar to the previous low-energy structure from the strand starting
 conformation in terms of helix content? Should it be different?
 
-It's similar, and we'd expect the low-energy structures to go toward a helix in 
+It's similar, and we'd expect the low-energy structures to go toward a helix in
 both cases if the low-energy structure is a helix-like structure.
 
-Q7. Does the starting structure have an effect on the equilibrated minimum energy 
+Q7. Does the starting structure have an effect on the equilibrated minimum energy
 structure in terms of whether you end up with helix or strand?
 
-No, if we are using a Monte Carlo method then the starting structure should not 
+No, if we are using a Monte Carlo method then the starting structure should not
 affect what the equilibrium structure is because we assume we are following a Markov process.
 
 Q8. Do you think the simulation followed a Markov process?
 
-Yes, since we arrived at similar equilibrium conformations independent of the 
+Yes, since we arrived at similar equilibrium conformations independent of the
 starting structure of the protein.
 
 Q9. How many conformations should be in this file?
@@ -50,8 +50,9 @@ You can use --help flags or check the man pages for the commands.
 
 Q11. How is this escape from the downhill energy tendency achieved in your simulation?
 
-We escape from the downhill energy tendency because of the random moves to higher-energy states in 
-our MC simulation. This allows us to sample conformations through randomness.
+We escape from the downhill energy tendency because of the random moves to higher-energy states in
+our MC simulation in the Metropolis criterion. This allows us to sample higher energy (lower entropy)
+conformations through randomness introduced in the Metropolis criterion.
 
 Q12. Would you say many different conformations were sampled or not?
 
