@@ -1,0 +1,70 @@
+David Li
+Lab 5b
+
+Q1. Is the slope of the total energy close to 0? Are the energy fluctuations
+around this mean value random (qualitative inspection)?
+
+Yes, the slope of the best fit line is more or less 0, and the variations 
+around the best fit line seem random.
+
+Q2. Are the energies distributed in an approximately Boltzmann fashion?
+
+Yes the histogram shows a general bell-shaped curve.
+
+Q3. How could you obtain a distribution with less noise?
+
+We could run the simulation for longer (or use smaller timesteps) to reduce 
+the effects of random variation. They will always be present but we can increase
+the scale of everything else to cause the scale of randomness to be smaller.
+
+Q4 doesn't exist?
+
+Q5. What are the average and S.D. RMSD values?
+The average is 1.344 A and the S.D. is 0.260 A
+
+Q6. Remembering that a carbon atom has a radius of ~2A what would you 
+estimate the range of side chain conformational fluctuations?
+
+Some carbon atoms move only a little (0.5A), but many side chain CA 
+move quite a bit more (2-3A). Range = 0.5A - 3A
+
+Q7. Is this more or less than the backbone CA RMSD you calculated above?
+
+This is more than the backbone CA RMSD we calculated.
+
+Q8. Do you observe a change in any side chain rotamers during this time range?
+
+I saw a few changes in the side chain rotamers.
+
+Q9. How many degrees of bond rotation is required for a rotamer change?
+
+We need 120 degrees of bond rotation to get a rotamer change.
+
+Q10. Would you expect to see a rotamer change in 5ns?
+
+I would expect to see at least one rotamer change in 5ns because side 
+chain rotation  occurs on the approximate timescale of picoseconds to 
+nanoseconds.
+
+Q11. Remembering that a carbon atom has a radius of ~2A what would you 
+estimate the range of backbone CA atom conformational fluctuations?
+
+Some backbone CA move only a little (0.5A), some move a 
+bit more (1.5A). Range = 0.5A - 1.5A
+
+Q12. Is this more or less than the backbone CA RMSD you calculated above?
+
+This yields an average movement of 1A, which is slightly lower, 
+but approximately the same as the CA backbone RMSD calculated above. 
+
+Q13. What kind of secondary structure (helix, strand, loop) are these 
+two residues with high backbone mobility in?
+
+Loop
+
+Q14. What kind of secondary structure (helix, strand, loop) are these seven 
+consecutive residues with low backbone mobility in?
+
+Helix (approximately residues 48/49 to 54)
+
+

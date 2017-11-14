@@ -3,20 +3,22 @@ dli44@jhu.edu
 
 Q1. What is a name for the block of lines that start with "IC"?
 
-
+It stands for Internal Coordinates
 
 Q2. What are the epsilon and VdW radius of the first type of carbon, 'C', in the list?
 
-epsilon is -0.11 and the VdW radius Rmin is 2*2.00 = 4.00.
+epsilon is -0.11 kcal/mol and the VdW radius Rmin is 2A.
 
 Q3. Which one (color) do you think is the inhibitor?
 
+Magenta
 
+Q4. How many configurations do you expect to be in the trajectory?
 
-Q4.
+2500000 steps with configurations every 2500 steps means I expect 1000 configurations.
 
-Q5.
+Q5. Why does 2500000 steps equate to 5 ns?
 
-Q6.
-
+If each configuration is every 2500 steps which is equal to 5ps, then 2500000 steps is equal to 
+5000 ps or 5ns.
 

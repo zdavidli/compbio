@@ -1,0 +1,25 @@
+David Li
+dli44@jhu.edu
+Comp Bio HW7
+
+Part 1: Information on PHE30 residue
+
+Atom#	AtomName	ResidueName	FoldedASA	UnfoldedASA	ASADifference
+216		N			PHE			0.0			0.4			0.4
+217		CA			PHE			0.0			3.3			3.3
+218		C			PHE			0.0			0.22		0.22
+219		O			PHE			0.0			14.25		14.25
+220		CB			PHE			0.38		22.89		22.51
+221		CG			PHE			0.0			1.76		1.76
+222		CD1			PHE			2.97		24.99		22.02
+223		CD2			PHE			0.0			19.49		19.49
+224		CE1			PHE			4.18		31.93		27.75
+225		CE2			PHE			0.0			29.17		29.17
+226		CZ			PHE			0.0			31.59		31.59
+
+Part 2: calculated free energy change due to
+hydrophobic burial in kcal/mol for the entire protein.
+
+ASA Sum for folded: 1981.8 A^2
+ASA Sum for unfolded: 4814 A^2
+Burial is 0.023 kcal/mol/A^2 * (folded - unfolded) = 0.023 * (1981.8 - 4814) kcal/mol = -65 kcal/mol
