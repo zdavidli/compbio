@@ -1,3 +1,7 @@
+# Homework 4
+# David Li
+# dzli@jhu.edu
+#
 # parameters
 # Npart : total number of particles
 # Temp  : temperature
@@ -10,33 +14,28 @@ Temp = int(Data['TEMP'])
 Rho = float(Data['RHO'])
 sigma = float(Data['SIG']) #Angstrom
 eps = 1000.0 * float(Data['EPS']) #cal/mol
+
 # any local variables that were used often and unchanged between subroutines were instead declared as globals here
 # elements of periodic boundary conditions
 Box = (Npart/Rho)**(1.0/3.0)
 Hbox = Box/2.0
 Rc = Hbox
 Rc2 = Rc*Rc
+
 def ener(Data,R2):
     # calculate energy between two particles
     # units are reduced
     # use half box length as the cut off distance
-    Npart = int(Data['NPART'])
-    Rho = float(Data['RHO'])
-    Box = (Npart/Rho)**(1.0/3.0)
-    Hbox = Box/2.0
-    Rc = Hbox
-    Rc2 = Rc*Rc
-
     r2i = 1.0/R2
     r6i = r2i*r2i*r2i
     En = 4*(r6i*r6i-r6i)
     Vir =  48*(r6i*r6i-0.5*r6i)
     return En, Vir
-	
-	
+
+
 def eneri(Data,X,Y,Z,xi,yi,zi,i,Jb):
     #calculates the energy of particle I with particles j=Jb,npart
- 
+
     # xi (input) x coordinate particle I
     # yi (input) y coordinate particle I
     # zi (input) z coordinate particle I
@@ -48,12 +47,6 @@ def eneri(Data,X,Y,Z,xi,yi,zi,i,Jb):
 
     En = 0.0
     Vir = 0.0
-    Npart = int(Data['NPART'])
-    Rho = float(Data['RHO'])
-    Box = (Npart/Rho)**(1.0/3.0)
-    Hbox = Box/2.0
-    Rc = Hbox
-    Rc2 = Rc*Rc
     for j in range(Jb,Npart):
         if j != i:
             dx = xi - X[j]
@@ -82,15 +75,14 @@ def eneri(Data,X,Y,Z,xi,yi,zi,i,Jb):
                 En = En + enij
                 Vir = Vir + virij
     return En,Vir
-	
-	
+
+
 def totergmc(Data,X,Y,Z):
     # sums energy and virial
     # virial not needed, old code needs to be cleaned up
 
     Ener = 0.0
     Vir = 0.0
-    Npart = int(Data['NPART'])
     for i in range(0,Npart-1):
         xi = X[i]
         yi = Y[i]
@@ -108,7 +100,7 @@ def main():
     Z = []
     # open and read pdb file, write to coordinate lists
     ff = open('Hmwk4.pdb', 'r')
-    nextline = ff.readline  
+    nextline = ff.readline
     while 1:
         line = nextline()
         if not line:
@@ -120,7 +112,7 @@ def main():
             x = float(line[5])/sigma
             y = float(line[6])/sigma
             z = float(line[7])/sigma
-            
+
             X.append(x)
             Y.append(y)
             Z.append(z)
