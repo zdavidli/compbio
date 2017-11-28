@@ -1,0 +1,12 @@
+package require psfgen
+topology top_all27_prot_lipid.inp
+pdbalias residue HIS HSE
+pdbalias atom ILE CD1 CD
+segment PROT {pdb inh.pdb}
+patch DISU PROT:5 PROT:55
+patch DISU PROT:14 PROT:38
+patch DISU PROT:30 PROT:51
+coordpdb 1ra2_cln.pdb PROT
+guesscoord
+writepdb start.pdb
+writepsf start.psf
