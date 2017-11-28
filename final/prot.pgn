@@ -6,7 +6,7 @@ topology top_all27_prot_lipid.inp
 
 # Add correct histidine species for pH=7
 # Found in topology file
-pdbalias residue HIS ??
+pdbalias residue HIS HSD
 
 # Next aliases in case your PDB file has non-charmm names
 pdbalias atom ILE CD1 CD 
