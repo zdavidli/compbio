@@ -1,0 +1,36 @@
+# Put ATOM lines for enzyme in file called enz.pdb
+# Put HETATM line for calcium in file called cal.pdb
+
+package require psfgen 
+topology top_all27_prot_lipid.inp
+
+# Add correct histidine species for pH=7
+# Found in topology file
+pdbalias residue HIS ??
+
+# Next aliases in case your PDB file has non-charmm names
+pdbalias atom ILE CD1 CD 
+pdbalias residue CA CAL 
+pdbalias atom CAL CA CAL
+
+segment PROT {
+pdb enz.pdb
+}
+
+# Add patch statements if any disulfides
+# e.g. 
+#patch DISU PROT:?? PROT:??
+
+coordpdb enz.pdb PROT 
+
+# No edits necessary below here
+segment ION  {
+first none
+last none
+pdb cal.pdb
+}
+coordpdb cal.pdb ION
+
+guesscoord 
+writepdb start.pdb 
+writepsf start.psf

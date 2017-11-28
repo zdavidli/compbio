@@ -1,0 +1,33 @@
+David Li
+Lab 5c
+dzli@jhu.edu
+
+
+Q1.  What is the probability density value (isovalue) necessary to encompass all conformers? 
+
+To encompass every single conformer, an isovalue of 0.05 is needed. 
+However, with an isovalue of 0.2, we encompasse all but 2 conformers. 
+
+Q2. Which atoms tend not to have defined densities at this isovalue, high or low B factor atoms? 
+
+High B-factor atoms.
+
+Q3. How can there be a residue in the PDB file if there was no electron density seen?
+
+Their positions can be predicted by minimum energy calculations, and hence we still see them in the structure. 
+No electron density information is reported because there is too much residual disorder for these atoms 
+(i.e., the atoms exist in so many conformations so that it is too smeared to make a coherent electron density map)
+
+Q4. What is the difference between the two maps for LYS_15?
+
+
+The second map has a greater radius around Lys 15 (showing that it occupies a greater space/more mobile) than the first map.
+
+
+Q5. Write an explanation as to why LYS_15 is less mobile in the X-ray structure than in your simulation.
+
+While many conformations are sampled in reality, the most highly sampled conformations have dominating effects, 
+so that when crystallographers measure electrons and make the map, the map largely reflects these 
+common conformations, and less mobility is reflected in the final structure. In our simulations, 
+we get to see the rarer conformations that are hidden in the crystal structure due to the 
+dominating effects of the often-sampled conformations, so we see more mobility in the video.
