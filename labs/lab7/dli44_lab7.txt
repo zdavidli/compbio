@@ -1,0 +1,61 @@
+David Li
+dli44@jhu.edu
+
+1. What is the difference between ordinary and partial differential equations?
+
+Ordinary differential equations are differential equations that involve
+derivatives in one variable, while partial differential equations have
+(partial) derivatives with respect to multiple variables.
+
+2. What part of the reaction scheme determines that the reaction goes to
+100% completion rather than some equilibrium ratio of [S]/[P]?
+
+The absence of the reaction k_(-3) from E -> EP means the reaction will
+go to 100% completion and not an equilibrium ratio of [S]/[P].
+This is from our assumption that once a product molecule is released
+from the enzyme that dissociation is irreversible.
+
+
+3. What are the initial concentrations of substrate (S0) and enzyme (E0)?
+
+S0 starts at 50 µM and E0 starts at 1.0 µM.
+
+4. How many enzyme molecules are present in the simulation?
+
+If 50 µM of substrate means about 301 substrate molecules, then
+1 µM of enzymes should mean about 6 enzyme molecules.
+
+5. What number is assigned to the y variable for state P?
+
+y(i) is assigned a value of 4 if the state is P.
+
+6. Why do the ES and EP curves alternate between zero and some value?
+
+Because there are only 6 enzyme molecules to start with, and it's a
+discrete simulation, so there will be states of the system with 0
+molecules of ES and EP.
+
+7. How many substrate molecules are you starting with now?
+
+I start with around 30,110 substrate molecules now.
+
+8. Does your plot recapitulate the plot from the deterministic simulation?
+
+Yes, they're basically the same after scaling the system by a factor
+of 100.
+
+9. From a comparison of the relative rate constants creating and eliminating
+ES versus the creation and elimination of EP, which species should have
+the longer lifetime?
+
+EP is created at a rate of 1.0 s^-1 and eliminated at a rate of 0.54 s^-1,
+while ES is created at a rate of 0.6 s^-1 and eliminated at a rate of 3.0 s^-1
+so EP should have a longer lifetime.
+
+10. Enter the complete commands you used in your lab report.
+
+grep -v 'Time' TaggedParticle.txt | awk '{print $3}' > ES.dat
+grep -v 'Time' TaggedParticle.txt | awk '{print $4}' > EP.dat
+
+11. From inspection of the plots that appear, and values that are printed
+to the command window, which species, ES or EP, has the longer lifetime?
