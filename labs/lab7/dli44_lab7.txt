@@ -59,3 +59,11 @@ grep -v 'Time' TaggedParticle.txt | awk '{print $4}' > EP.dat
 
 11. From inspection of the plots that appear, and values that are printed
 to the command window, which species, ES or EP, has the longer lifetime?
+
+The output of the Lifetime*.m programs is:
+    >> Life_time_ES
+    Lifetime = approx.     0.50 sec
+    >> Life_time_EP
+    Lifetime = approx.     1.60 sec
+
+Thus the species EP has a longer lifetime, as we predicted.
