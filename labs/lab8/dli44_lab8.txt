@@ -1,0 +1,27 @@
+David Li
+Lab 8
+dli44@jhu.edu
+
+Q1. Which atom-atom contacts between the ligand and protein are important for binding?
+Fill in the table below.
+
+Ligand Atom         Protein residue/heteroatom              Type of interaction
+-------------------------------------------------------------------------------
+C14, C15 (methyl)   PHE 195                                 Hydrophobic Interaction
+O2 (C=O)            Zinc 365, TYR293                        Electrostatic Interaction (ZN), Hydrogen bond
+1H1 (O-H)           HIS 129                                 Hydrogen bond
+H1 (N-H)            HIS 130                                 Hydrogen bond
+
+Q2. Does the lowest energy cluster include the X-ray ligand conformation, or
+does the most sampled configuration contain the X-ray conformation?
+
+They are the same in my simulation, and it contains the X-ray ligand conformation.
+
+Q3. Are all of the ligand-protein interactions you identified above as
+being important satisfied in the conformations from the best cluster?
+
+Yes.
+
+Q4. Which apoprotein sidechains have VDW clash with the ligand?
+
+PHE195, MET261, PHE139, TYR293 have clashes with the ligand.
