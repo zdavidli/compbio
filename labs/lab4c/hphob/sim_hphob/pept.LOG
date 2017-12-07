@@ -1,0 +1,114 @@
+============================================================
+LINUS version 0.1
+============================================================
+
+Simulation starting time: Thu Oct 26 11:35:32 2017
+
+Input PDB Filename: pept.pdb
+Molecule TITLE      COLLAPSE
+	Number of Residues: 16
+	Number of Atoms   : 96
+
+----- Simulation Parameters -----
+	Number of Cycles:        25000
+	Structure Save Frequency:          100
+	Random Generator Seeds at Start: (989187721L, 3817770129L, 736173238L, 3701109644L, 3257890502L, 4284071696L)
+	Beta for run: 2
+	Number of trials: 1
+
+----- Bump Check Information -----
+
+ Total Number of Bumps = 0
+
+----- Contact Score Information -----
+Contact probe size: 2.8
+Total number of contacts: 122
+
+------ Contact Score Listing -----
+  2 LEU  CD1   4 LEU  CD1 Distance = 6.650 Score = 0.013
+  2 LEU  CD2   4 LEU  CD2 Distance = 6.644 Score = 0.014
+  4 LEU  CD1   6 LEU  CD1 Distance = 6.650 Score = 0.013
+  4 LEU  CD2   6 LEU  CD2 Distance = 6.644 Score = 0.014
+ 11 LEU  CD1  13 LEU  CD1 Distance = 6.650 Score = 0.013
+ 11 LEU  CD2  13 LEU  CD2 Distance = 6.644 Score = 0.014
+ 13 LEU  CD1  15 LEU  CD1 Distance = 6.650 Score = 0.013
+ 13 LEU  CD2  15 LEU  CD2 Distance = 6.644 Score = 0.014
+
+Total Contact Score = -0.109253
+
+Total Energy of Initial Structure = -0.109253
+	HBond Minimum Window Size: 5
+	HBond Maximum Window Size: 16
+	Contact Minimum Window Size: 2
+	Contact Maximum Window Size: 16
+
+----- Sampling Weights at Start of Run -----
+RESIDUE    HELIX   SHEET   TURN1   TURN2    COIL    PII
+   1 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   2 LEU   0.250   0.250   0.125   0.125   0.125   0.125
+   3 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   4 LEU   0.250   0.250   0.125   0.125   0.125   0.125
+   5 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   6 LEU   0.250   0.250   0.125   0.125   0.125   0.125
+   7 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+   8 GLY   0.250   0.250   0.125   0.125   0.125   0.125
+   9 GLY   0.250   0.250   0.125   0.125   0.125   0.125
+  10 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+  11 LEU   0.250   0.250   0.125   0.125   0.125   0.125
+  12 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+  13 LEU   0.250   0.250   0.125   0.125   0.125   0.125
+  14 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+  15 LEU   0.250   0.250   0.125   0.125   0.125   0.125
+  16 ALA   0.250   0.250   0.125   0.125   0.125   0.125
+Simulation Finished at: Thu Oct 26 11:44:36 2017
+Number of Structures Accepted: 105420
+Number of Structures Rejected by Sterics: 215700
+Number of Structures Rejected by Hbond Satisfaction: 0
+Total Number of Structures Rejected: 244580
+Best Score: -4.63581
+Final Score: -0.619265
+Random Generator Seeds at End: (2809094064.0, 654539190.0, 520048035.0, 1906890531.0, 2932340601.0, 3595925480.0)
+
+----- Bump Check Information -----
+
+ Total Number of Bumps = 0
+
+----- Contact Score Information -----
+Contact probe size: 2.8
+Total number of contacts: 122
+
+------ Contact Score Listing -----
+  4 LEU  CD1   6 LEU  CD1 Distance = 6.042 Score = 0.068
+  4 LEU  CD1   6 LEU  CD2 Distance = 6.396 Score = 0.036
+ 10 ALA  CB   13 LEU  CD2 Distance = 6.363 Score = 0.039
+ 11 LEU  CD1  13 LEU  CD1 Distance = 4.505 Score = 0.205
+ 11 LEU  CD1  13 LEU  CD2 Distance = 5.349 Score = 0.130
+ 11 LEU  CD2  13 LEU  CD1 Distance = 5.802 Score = 0.089
+ 13 LEU  CD2  15 LEU  CD1 Distance = 6.794 Score = 0.000
+ 13 LEU  CD2  15 LEU  CD2 Distance = 6.213 Score = 0.052
+
+Total Contact Score = -0.619265
+
+Total Energy of Initial Structure = -0.619265
+
+----- Sampling Weights at Start of Run -----
+
+----- Move Type Details ----
+  Residue        Helix               Sheet              Turn1              Turn2               Coil                PII
+           Accepted Rejected   Accepted Rejected  Accepted Rejected  Accepted Rejected  Accepted Rejected  Accepted Rejected
+    1 ALA         0        0         0        0         0        0         0        0         0        0         0        0
+    2 LEU      1623     4640      5091     1081       835     2312      1729     1376      1818     1269      2339      815
+    3 ALA       410     5964      1546     4572       423     2808       380     2702       592     2519      1109     2031
+    4 LEU       550     5757      4313     2029       345     2707       491     2712       992     2057      1264     1899
+    5 ALA       415     5822      1295     5000       350     2780       211     3022       512     2672       820     2303
+    6 LEU      1017     5075      4099     2273       715     2398       576     2562      1051     2087      1318     1768
+    7 ALA      1220     5030      2337     3979       528     2651       629     2475       869     2276      1367     1799
+    8 GLY      1244     5103      4561     1680       707     2435       930     2154      1481     1635      1713     1413
+    9 GLY       602     5693      4678     1640       519     2578       727     2419      1398     1671      1695     1468
+   10 ALA       423     5649      2368     3799       657     2450       337     2768       854     2273      1061     2038
+   11 LEU       588     5677      4091     2254       343     2719       608     2567      1055     2011      1354     1812
+   12 ALA       335     5922      1202     4970       278     2827       189     2844       417     2745       778     2204
+   13 LEU       562     5768      3592     2606       353     2809       486     2735       892     2223      1056     2070
+   14 ALA       605     5722      1260     4930       411     2560       259     2906       520     2660       894     2298
+   15 LEU      2712     3510      3987     2085      1486     1721      1127     1983      1411     1678      1435     1676
+   16 ALA         0        0         0        0         0        0         0        0         0        0         0        0

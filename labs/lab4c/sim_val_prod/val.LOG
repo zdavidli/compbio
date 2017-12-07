@@ -1,0 +1,100 @@
+============================================================
+LINUS version 0.1
+============================================================
+
+Simulation starting time: Thu Oct 26 11:18:25 2017
+
+Input PDB Filename: val.pdb
+Molecule TITLE     VAL
+	Number of Residues: 13
+	Number of Atoms   : 91
+
+----- Simulation Parameters -----
+	Number of Cycles:        25000
+	Structure Save Frequency:           50
+	Random Generator Seeds at Start: (157926599L, 1621812164L, 4282626868L, 552534928L, 1467613352L, 2179037242L)
+	Beta for run: 2
+	Number of trials: 1
+
+----- Bump Check Information -----
+
+ Total Number of Bumps = 0
+
+----- Hydrogen Bond Score Information -----
+Hydrogen Bond Distance:   3.5
+Hydrogen Bond Torsion:    140
+Hydrogen Bond Probe Size: 1.5
+Hydrogen Bond Score:
+	Short: 0.5
+	 Long: 1
+
+------ Hydrogen Bond Score Listing -----
+
+Total Hydrogen Bond Score = -0.000
+
+Total Energy of Initial Structure = 0
+	HBond Minimum Window Size: 2
+	HBond Maximum Window Size: 13
+	Contact Minimum Window Size: 2
+	Contact Maximum Window Size: 6
+
+----- Sampling Weights at Start of Run -----
+RESIDUE    HELIX   SHEET   TURN1   TURN2    COIL    PII
+   1 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   2 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   3 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   4 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   5 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   6 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   7 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   8 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+   9 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+  10 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+  11 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+  12 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+  13 VAL   0.250   0.250   0.125   0.125   0.125   0.125
+Simulation Finished at: Thu Oct 26 11:29:02 2017
+Number of Structures Accepted: 98941
+Number of Structures Rejected by Sterics: 169736
+Number of Structures Rejected by Hbond Satisfaction: 0
+Total Number of Structures Rejected: 176059
+Best Score: -2.48304
+Final Score: -0
+Random Generator Seeds at End: (381448830.0, 1542588750.0, 3010941508.0, 78420264.0, 944538473.0, 2240690862.0)
+
+----- Bump Check Information -----
+
+ Total Number of Bumps = 0
+
+----- Hydrogen Bond Score Information -----
+Hydrogen Bond Distance:   3.5
+Hydrogen Bond Torsion:    140
+Hydrogen Bond Probe Size: 1.5
+Hydrogen Bond Score:
+	Short: 0.5
+	 Long: 1
+
+------ Hydrogen Bond Score Listing -----
+
+Total Hydrogen Bond Score = -0.000
+
+Total Energy of Initial Structure = 0
+
+----- Sampling Weights at Start of Run -----
+
+----- Move Type Details ----
+  Residue        Helix               Sheet              Turn1              Turn2               Coil                PII
+           Accepted Rejected   Accepted Rejected  Accepted Rejected  Accepted Rejected  Accepted Rejected  Accepted Rejected
+    1 VAL         0        0         0        0         0        0         0        0         0        0         0        0
+    2 VAL      1326     4951      5593      716       596     2562      2113     1017      2210      926      2657      489
+    3 VAL       117     5994      5058     1145       106     3038       265     2884      1197     1940      1815     1276
+    4 VAL        58     6319      4986     1294        70     3101       101     2991      1077     1989      1785     1311
+    5 VAL        31     6308      4633     1542        68     3048        95     3017      1067     2059      1720     1359
+    6 VAL        37     6187      4972     1253        68     3055        71     3010      1120     2003      1833     1250
+    7 VAL        27     6271      5087     1214        74     3047        73     3043      1141     2021      1789     1305
+    8 VAL        30     6191      5001     1260        67     3091        67     3065      1105     1991      1856     1323
+    9 VAL        42     6219      4979     1224        86     3105        69     3059      1078     1929      1765     1384
+   10 VAL        43     6211      5163     1188        96     2987        84     3058      1134     1927      1827     1285
+   11 VAL        75     6306      5187     1027       113     2980        88     2992      1307     1805      1954     1260
+   12 VAL       436     5723      5363      935      1231     2028       218     2858      1518     1612      1923     1101
+   13 VAL         0        0         0        0         0        0         0        0         0        0         0        0
