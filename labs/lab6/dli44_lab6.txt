@@ -4,15 +4,29 @@ dli44@jhu.edu
 
 Q1. Are residues linked by backbone hydrogen bonds highly correlated?
 
+Yes.
+
 Q2. Why don’t we see high correlation between residues i and i+1?
 
-Q3. Does each secondary structural element (helix, sheet)
-have its own unique cluster?
+No, becuase the network.config files excludes adjacent residues (residues i and i+1)
 
-Q4. What other results did you obtain in this class that showed heterogeneity
-of secondary structure dynamics?
+Q3. Does each secondary structural element (helix, sheet) have its own unique cluster?
+
+No, in some cases the structural elements are part of larger clusters.
+
+Q4. What other results did you obtain in this class that showed heterogeneity of secondary structure dynamics?
+
+Within a secondary structure, we learned that there can be high dihedral angular 
+deviation between residues leading to heterogeneous secondary structure dynamics
 
 Q5. Are these three residues in different communities in your VMD display?
 
-Q6. Did you find only covalent, only non-covalent, or both types of connection
-between correlated residues?
+Yes.
+
+Q6. Did you find only covalent, only non-covalent, or both types of connection between correlated residues?
+
+Only covalent.
+
+Q7. Did you find only covalent, only non-covalent, or both types of connection between correlated residues?
+
+Only non-covalent.
