@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1513032428 "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" "final.pdf" "final" 1513032428
+["pdflatex"] 1513046477 "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" "final.pdf" "final" 1513046478
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1503353758 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1503352749 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1503352749 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -47,10 +47,11 @@
   "c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1503366617 2401291 dbbcce8a68e299b206168db664113e3f ""
   "c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1503366758 4126646 debd5f84a5850a7807581d4b6024644e ""
   "c:/texlive/2017/texmf.cnf" 1503366589 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" 1513032426 786 7221a92849a29652d32c72d2c0668c66 ""
-  "final.aux" 1513032428 453 ff7d6fa0a6517198108af968c8840a17 ""
-  "final.tex" 1513032426 786 7221a92849a29652d32c72d2c0668c66 ""
+  "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" 1513046476 781 5d6adc2cbd93f7eed7db29876fe3bed7 ""
+  "final.aux" 1513046478 453 a91947556d819d2eaff0d4d5bdeab557 ""
+  "final.tex" 1513046476 781 5d6adc2cbd93f7eed7db29876fe3bed7 ""
   (generated)
+  "final.pyg"
+  "final.log"
   "final.aux"
   "final.pdf"
-  "final.log"
