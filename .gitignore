@@ -1,5 +1,6 @@
 .DS_Store
 *.dcd
+.vscode
 
 # Core latex/pdflatex auxiliary files:
 *.aux
