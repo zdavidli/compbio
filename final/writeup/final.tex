@@ -99,8 +99,8 @@ A chymotrypsin from \textit{Bos taurus}
 (RCSB PDB ID:\@ \href{http://www.rcsb.org/pdb/explore.do?structureId=1ggd}{1GGD})
 was used as the starting structure, with an additional calcium atom added to
 stabilize the enzyme. The charged form of aspartate (ASP) and the neutral form
-of histidine (HSD) were used when building the system with VMD 1.9.3. After
-stabilizing, VMD was used to neutralize the system with water and 0.2M \ch{KCl}.
+of histidine (HSD) were used when building the system with VMD 1.9.3.
+VMD was then used to neutralize the system with water and 0.2M \ch{KCl}.
 The D102A system was created using the same parameters, solvation, and
 neutralization as the wild-type system but the catalytic triad aspartate was
 mutated to an alanine residue.
@@ -152,6 +152,7 @@ that of the wild-type variant, with an average of 2.09\AA{} compared to
 2.00\AA{}. As seen in Figure~\ref{fig:rmsd}, after about 8 ns of simulation,
 the D102A RMSD sharply increases to around 2.5\AA{}, indicative of a loop
 flexing out, which can be confirmed from visual inspection of the trajectory.
+
 \begin{figure}[H]
     \centering
         \includegraphics[width=0.49\textwidth]{rmsds.eps}
@@ -193,13 +194,13 @@ mutant samples a wider range of bond angles.
 
 For the analysis, hydrogen bonds were defined as a maximum distance of 3.5\AA{}
 between donors and accepters with a maximum angle of 45\(^\circ\). Hydrogen
-bond incidence can then be plotted versus simulation time -- see
+bond incidence could then be plotted versus simulation time -- see
 Figures~\ref{fig:hbond_asp_his},~\ref{fig:hbond_his_ser_wt},~\ref{fig:hbond_his_ser_d102a}.
 Figure~\ref{fig:hbond_asp_his} demonstrates wild-type Asp-His hydrogen bonds
 are relatively stable, terminating infrequently over the entire simulation.
 The fluctuations are mostly between 1 and 2 hydrogen bonds (an Asp-His hydrogen
-bond exists in 99.6\% of the sampled frames), indicating that the hydrogen
-in the histidine was forming and breaking bonds with the oxygen in the
+bond exists in 99.6\% of the sampled frames), indicating that there is a persistent
+bond and that the histidine was forming and breaking bonds with the oxygen in the
 aspartate rapidly.
 
 

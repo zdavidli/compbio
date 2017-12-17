@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1513299835 "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" "final.pdf" "final" 1513299837
+["pdflatex"] 1513356058 "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" "final.pdf" "final" 1513356060
   "../figures/chi_plot_wt_d102a.eps" 1513280618 206584 e9e49be4025716992c887a080217b31d ""
   "../figures/d102a_conformation1.png" 1513266911 169701 65e57179c4ae1078dab2619130e1f498 ""
   "../figures/d102a_hbond_times.eps" 1513296035 40910 5841e22ea9e9deb16be9e280c8d21cb7 ""
@@ -187,16 +187,16 @@
   "c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1503366617 2401291 dbbcce8a68e299b206168db664113e3f ""
   "c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1503366758 4126646 debd5f84a5850a7807581d4b6024644e ""
   "c:/texlive/2017/texmf.cnf" 1503366589 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" 1513299834 19967 157fc1ca49aee9f167fcd6c9a3e34c20 ""
+  "c:\Users\dli\Documents\GitHub\compbio\final\writeup\final.tex" 1513356057 19977 a0c240d5c051ccff5e7849933d8f32b5 ""
   "final.aex" 0 -1 0 ""
-  "final.aux" 1513299836 5416 df5b88f995f0a5281c42c0a4f063c913 ""
-  "final.out" 1513299836 239 2d295929d2913d8df62fee6da53b31ff ""
+  "final.aux" 1513356060 5416 df5b88f995f0a5281c42c0a4f063c913 ""
+  "final.out" 1513356060 239 2d295929d2913d8df62fee6da53b31ff ""
   "final.pyg" 0 -1 0 ""
-  "final.tex" 1513299834 19967 157fc1ca49aee9f167fcd6c9a3e34c20 ""
+  "final.tex" 1513356057 19977 a0c240d5c051ccff5e7849933d8f32b5 ""
   "nul:.tex" 0 -1 0 ""
   (generated)
-  "final.pyg"
+  "final.out"
   "final.pdf"
   "final.aux"
-  "final.out"
   "final.log"
+  "final.pyg"
